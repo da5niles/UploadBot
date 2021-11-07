@@ -1,13 +1,10 @@
 class Translation(object):
-    START_TEXT = """Hello,
-This is a Telegram URL Upload Bot!
+    START_TEXT = """Привет,
+Это бот для загрузки URL в Telegram!
 
-<b>Please send me any direct download URL Link, i can upload to telegram as File/Video</b>
+Пожалуйста, пришлите мне любую прямую URL-ссылку для скачивания, я могу загрузить в Telegram как файл / видео
 
-/help for more details..
-
-Support Group : @InFoTelGroup
-© @SpEcHlDe , @TGBotsZ & @CWProjects"""
+/ help для подробностей..."""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = "<b>👉 Create own Clone Bot.. </b>  /help for Details"
