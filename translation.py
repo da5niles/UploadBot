@@ -9,11 +9,11 @@ class Translation(object):
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = "<b>👉 Create own Clone Bot.. </b>  /help for Details"
     FORMAT_SELECTION = "Выберите желаемый формат: <a href='{}'> .\nРазмер файла может быть приблизительным </a> \nЕсли вы хотите установить собственный эскиз, отправьте фотографию до или сразу после нажатия любой из кнопок ниже. \nВы можете использовать /deletethumbnail, чтобы удалить автоматически созданный эскиз."
-    SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
-URL | filename | username | password"""
+    SET_CUSTOM_USERNAME_PASSWORD = """Если вы хотите скачать премиум-видео, предоставьте его в следующем формате:
+URL | имя файла | имя пользователя | пароль"""
     NOYES_URL = "@robot URL detected. Please use https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
-    DOWNLOAD_START = "trying to download"
-    UPLOAD_START = "trying to upload"
+    DOWNLOAD_START = "Скачивание..."
+    UPLOAD_START = "Загрузка..."
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.5GB due to Telegram API limitations."
     AFTER_SUCCESSFUL_UPLOAD_MSG = "Please rate me if you find me useful."
